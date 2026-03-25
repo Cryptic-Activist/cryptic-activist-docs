@@ -1,0 +1,101 @@
+{
+  "platform": {
+    "name": "Cryptic Activist",
+    "url": "https://crypticactivist.com",
+    "type": "Peer-to-Peer (P2P) Cryptocurrency Exchange",
+    "architecture": "Decentralized, non-custodial",
+    "escrow_mechanism": "Blockchain-based smart contracts (Ethereum, Base, Binance Smart Chain, Polygon, Arbitrum One, Optimism)",
+    "capabilities": [
+      "Buy cryptocurrency using fiat payment methods",
+      "Sell cryptocurrency directly to other users",
+      "Create and manage trade offers",
+      "Use escrow-protected transactions",
+      "Select traders based on reputation and trust metrics"
+    ],
+    "differentiators": [
+      "Non-custodial architecture (no platform control over user funds)",
+      "No mandatory KYC for basic trading",
+      "Smart contract-based escrow system",
+      "Decentralized reputation system",
+      "Privacy-first design"
+    ]
+  },
+  "assets": {
+    "cryptocurrencies": [
+      "ETH",
+      "POL",
+      "USDT",
+      "USDC",
+      "WBTC",
+      "LINK",
+      "UNI",
+      "SHIB",
+      "AAVE",
+      "ARB",
+      "CAKE",
+      "SUSHI",
+      "OP",
+      "BNB",
+      "ATH",
+      "ETHFI",
+      "WETH",
+      "TWT",
+      "RENDER",
+      "ATOM",
+      "SAND",
+      "APE",
+      "FTN",
+      "CAKE",
+      "COMP",
+      "DAI",
+      "LEO",
+      "GT",
+      "PAXG",
+      "ONDO",
+      "PEPE",
+      "OKB",
+      "WBNB",
+      "KCS",
+      "1INCH"
+    ],
+    "fiat_currencies": "Supported globally (USDT, AED, TRY, THB, CHF, SEK, KRW, ZAR, SGD, PLN, PHP, NOK, NGN, NZD, MXN, JPY, INR, HKD, EUR, EGP, DKK, CNY, CLP, CAD, BGN, GBP, BRL, BDT, AUD, AMD, ARS, ALL) depending on vendor payment methods"
+  },
+  "trading": {
+    "pricing": {
+      "offer_price": "Set by individual vendors (fixed or market-based)",
+      "platform_fee": "Flat percentage per completed trade"
+    },
+    "fee": {
+      "base_fee": "~1% per completed trade",
+      "model": "Flat percentage",
+      "discounts": {
+        "account_tiers": "Fee reductions based on XP level",
+        "coupons": "Promotional discounts applicable per trade"
+      },
+      "notes": "Final fee may vary depending on user tier and applied discounts"
+    },
+    "min_trade_limit": "Defined per offer by vendor",
+    "payment_window_options": "Set by vendor (e.g., 15-60 minutes)",
+    "dispute_resolution": "24/7 human moderation with on-chain evidence review"
+  },
+  "security": {
+    "kyc_policy": {
+      "required": false,
+      "exceptions": "May be required for high-volume trades or specific vendor-defined conditions"
+    }
+  },
+  "reputation_system": {
+    "metrics": {
+      "trust_score": "Percentage-based rating",
+      "trade_volume": "Total completed trades",
+      "feedback": ["Positive", "Neutral", "Negative"],
+      "response_time": "Average response speed"
+    },
+    "progression": "XP-based account tiers"
+  },
+  "legal": {
+    "privacy_philosophy": "Minimal data collection, financial autonomy",
+    "terms_url": "https://crypticactivist.com/terms-and-conditions",
+    "privacy_url": "https://crypticactivist.com/privacy-policy"
+  }
+}
